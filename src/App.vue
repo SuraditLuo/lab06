@@ -1,8 +1,8 @@
 <template>
+  <h1>Suradit Luo</h1>
   <div id="flashMessage" v-if="GStore.flashMessage">
     {{ GStore.flashMessage }}
   </div>
-  <h1> Suradit Luo </h1>
   <div id="nav">
     <router-link :to="{ name: 'EventList' }">Home</router-link> |
     <router-link :to="{ name: 'About' }">About</router-link>
